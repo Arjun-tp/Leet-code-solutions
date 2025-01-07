@@ -7,6 +7,7 @@ var lengthOfLastWord = function (s) {
     return words.filter(word => word!== "")[0].length;
 };
 
-
-// Example
-// lengthOfLastWord("luffy is still joyboy")
+/*
+Example
+lengthOfLastWord("luffy is still joyboy")
+*/

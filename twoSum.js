@@ -14,5 +14,7 @@ var twoSum = function(nums, target) {
 };
 
 
-// Example
-// twoSum([2,7,11,15], 9)
+/*
+Example
+twoSum([2,7,11,15], 9)
+*/

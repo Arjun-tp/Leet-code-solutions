@@ -18,6 +18,7 @@ var isPalindrome = function (s) {
     return true
 };
 
-
-// Example
-// isPalindrome("A man, a plan, a canal: Panama")
+/*
+Example
+isPalindrome("A man, a plan, a canal: Panama")
+*/

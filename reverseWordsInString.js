@@ -1,3 +1,18 @@
+/**
+ * @param {string} s
+ * @return {string}
+ */
+var reverseWords = function(s) {
+    let splitString = s.split(' ').reverse();
+    for(let i=0;i<splitString.length;i++){
+        if(splitString[i] === ''){
+            splitString.splice(i,1)
+            i--
+        }
+    }
+    return splitString.join(' ')
+};
+
 /*
 Example 1:
 
@@ -16,22 +31,3 @@ Input: s = "a good   example"
 Output: "example good a"
 Explanation: You need to reduce multiple spaces between two words to a single space in the reversed string.
 */
-
-/**
- * @param {string} s
- * @return {string}
- */
-var reverseWords = function(s) {
-    let splitString = s.split(' ').reverse();
-    for(let i=0;i<splitString.length;i++){
-        if(splitString[i] === ''){
-            splitString.splice(i,1)
-            i--
-        }
-    }
-    return splitString.join(' ')
-};
-
-
-// Example
-// reverseWords("the sky is blue")

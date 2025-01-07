@@ -12,5 +12,7 @@ var removeElement = function(nums, val) {
     }
 };
 
-// Example
-// removeElement([0,1,2,2,3,0,4,2],2)
+/*
+Example
+removeElement([0,1,2,2,3,0,4,2],2)
+*/
